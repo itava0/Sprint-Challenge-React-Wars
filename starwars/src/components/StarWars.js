@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import StarWarsCards from "./StarWarsCards";
 import axios from "axios";
+import { Img } from "../../src/components/Data";
 
 function StartWars() {
   const [star, setstar] = useState([]);
@@ -20,14 +21,15 @@ function StartWars() {
     <div>
       {star.map(person => {
         return (
-          <StarWarsCards 
-          key={person.name} 
-          title={person.name}
-          birthDate={person.birth_year}
-          gender={person.gender}
-          height={person.height}
-          eyeColor={person.eye_color}/>
-        )
+          <StarWarsCards
+            key={person.name}
+            title={person.name}
+            birthDate={person.birth_year}
+            gender={person.gender}
+            height={person.height}
+            eyeColor={person.eye_color}
+          />
+        );
       })}
     </div>
   );

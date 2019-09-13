@@ -5,7 +5,7 @@ const Cards = styled.div`
   background: #fff;
   border-radius: 4px;
   box-shadow: 2px 2px 10px 10px rgba(0, 0, 0, 0.1);
-  max-width: 300px;
+  max-width: 400px;
   flex-basis: auto;
   display: flex;
   flex-direction: column;
@@ -38,9 +38,12 @@ const EyeColor = styled.p`
   padding: 0.5rem 1rem;
   order: 99;
 `;
-const Image = styled.img `
-
-`
+const Img = styled.img`
+  max-width: 300px;
+  height: 30vh;
+  object-fit: stretch;
+`;
+const Image = styled.img``;
 const StarWarsCards = props => {
   return (
     <Cards key={props.name}>
