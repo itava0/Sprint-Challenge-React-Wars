@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import StarWarsCards from "./StarWarsCards";
 import axios from "axios";
-import { Img } from "../../src/components/Data";
 
 function StartWars() {
   const [star, setstar] = useState([]);

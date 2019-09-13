@@ -38,12 +38,7 @@ const EyeColor = styled.p`
   padding: 0.5rem 1rem;
   order: 99;
 `;
-const Img = styled.img`
-  max-width: 300px;
-  height: 30vh;
-  object-fit: stretch;
-`;
-const Image = styled.img``;
+
 const StarWarsCards = props => {
   return (
     <Cards key={props.name}>
