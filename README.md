@@ -23,17 +23,25 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 ## Self-Study/Essay Questions
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
+1. What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-- [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+ React JS is a  JavaScript libray. DOM are quite expensive in terms of performance, and any web app that has much of DOM in the background will render slowly. So, React solves this problem by comparing the virtual DOM with the DOM if there any changes, react updates only the ones that have changed.
 
-- [ ] What does it mean to _think_ in react?
+1. What does it mean to think in react?
 
-- [ ] Describe state.
+   To think in Components 
+   
+1. Describe state.
 
-- [ ] Describe props.
+    are data 
 
-- [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+1. Describe props.
 
+    are Parameters
+
+1. What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+Side effects are called made outside the function scope. To sync effects in react component we used  useEffect.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
